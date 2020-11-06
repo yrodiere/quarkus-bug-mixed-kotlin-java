@@ -14,7 +14,7 @@ class KotlinServiceTest {
           .`when`().get("/hello")
           .then()
              .statusCode(200)
-             .body(`is`("hello"))
+             .body(`is`("hello from JavaComponent"))
     }
 
 }
